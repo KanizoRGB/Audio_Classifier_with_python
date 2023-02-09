@@ -2,15 +2,15 @@
 This is a project for a model trained to detect a specific beep sound in pre-loaded audio files or through microphone input from the external environment.
 
 ## Setting up dependecies
-pip install sounddevice
-pip install os
-pip install librosa
-pip install matplotlib
-pip install numpy
-pip install pandas
-pip install tensorflow
-pip install sklearn
-pip install pyttsx3
+- pip install sounddevice
+- pip install os
+- pip install librosa
+- pip install matplotlib
+- pip install numpy
+- pip install pandas
+- pip install tensorflow
+- pip install sklearn
+- pip install pyttsx3
 
 Install any other required dependecies on raspberry pi.
 
