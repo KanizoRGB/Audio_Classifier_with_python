@@ -11,6 +11,7 @@ This is a project for a model trained to detect a specific beep sound in pre-loa
 - pip install tensorflow
 - pip install sklearn
 - pip install pyttsx3
+- pip install playsound==1.2.2
 
 Install any other required dependecies on raspberry pi.
 
