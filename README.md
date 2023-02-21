@@ -19,7 +19,7 @@ Install any other required dependecies on raspberry pi.
 - Collect sample data and background data using PreparingData.py
 - Preprocess the collected data using Preprocessing.py
 - Train the model on the collected data
-- Run test.py to test trained model with pre-loaded wav files.
+- Run test.py to test trained model with pre-loaded wav files in the Audio_database_dataset csv file. The program will first play the audio file to an output and then determine whether it has detected the beep sound or not.
 - Run main.py when you want to test the model with inputs from a microphone connected to your PC or to your Raspberry pi.
 
 Happy Coding!
