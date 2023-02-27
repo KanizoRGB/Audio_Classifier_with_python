@@ -17,6 +17,7 @@ Install any other required dependecies on raspberry pi.
 ## Other Instructions
 Follow instructions on this link to install FFmpeg to the root directory of your computer if you are on windows OS.
 https://www.wikihow.com/Install-FFmpeg-on-Windows
+FFmpeg helps librosa to decode other formats.
 
 If Linux OS: run this command "apt install ffmpeg"
 
@@ -28,4 +29,4 @@ If Linux OS: run this command "apt install ffmpeg"
 - Run test.py to test trained model with pre-loaded wav files in the Audio_database_dataset csv file. The program will first play the audio file to an output and then determine whether it has detected the beep sound or not.
 - Run main.py when you want to test the model with inputs from a microphone connected to your PC or to your Raspberry pi.
 
-Happy Coding!
+Happy Coding!!!
