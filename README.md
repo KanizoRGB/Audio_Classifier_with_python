@@ -26,7 +26,7 @@ If Linux OS: run this command "apt install ffmpeg"
 - Collect sample data and background data using PreparingData.py
 - Preprocess the collected data using Preprocessing.py
 - Train the model on the collected data
-- Run test.py to test trained model with pre-loaded wav files in the Audio_database_dataset csv file. The program will first play the audio file to an output and then determine whether it has detected the beep sound or not.
-- Run main.py when you want to test the model with inputs from a microphone connected to your PC or to your Raspberry pi.
+- Run test.py to test trained model with pre-loaded wav files in the Audio_database_dataset csv file. The program will first slice the selected WAV file into smaller wav files and iterate through these slices trying to detect the beep. For every beep detected, the program will play the beep sound and turn the servo motor 10 degrees and then back to 0 degrees.
+- Run main.py when you want to test the model with inputs from a microphone connected to your PC or to your Raspberry pi. The program will continuously listen to input from the mic, to try and detect the beep sound.
 
 Happy Coding!!!
