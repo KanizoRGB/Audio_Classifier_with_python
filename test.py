@@ -86,6 +86,7 @@ while True:
                     print(f"Tone Detected for ({i})")
                     print("Confidence:", prediction[:, 1])
                     print("Rotate servo motor by 10 degrees")
+                    playsound("wav_files/beep.wav")
                     i += 1
     
                 else:
