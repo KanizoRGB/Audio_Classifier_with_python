@@ -3,7 +3,6 @@ This is a project for a model trained to detect a specific beep sound in pre-loa
 
 ## Setting up dependecies
 - pip install sounddevice
-- pip install os
 - pip install librosa
 - pip install matplotlib
 - pip install numpy
@@ -15,7 +14,14 @@ This is a project for a model trained to detect a specific beep sound in pre-loa
 
 Install any other required dependecies on raspberry pi.
 
-## Sequence
+## Other Instructions
+Follow instructions on this link to install FFmpeg to the root directory of your computer if you are on windows OS.
+https://www.wikihow.com/Install-FFmpeg-on-Windows
+
+If Linux OS: run this command "apt install ffmpeg"
+
+
+## Follow this sequence to build your own model
 - Collect sample data and background data using PreparingData.py
 - Preprocess the collected data using Preprocessing.py
 - Train the model on the collected data
