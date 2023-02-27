@@ -1,4 +1,4 @@
-beep.wav
-samplewithnoise.wav
-sample.wav
-negative.wav
+wav_files\beep.wav
+wav_files\sample.wav
+wav_files\samplewithnoise.wav
+wav_files\negative.wav

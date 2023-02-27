@@ -45,7 +45,9 @@ def prediction(y):
         if engine._inLoop:
             engine.endLoop()
 
-        speak("Ha Ha Ha Leonard, I am turning the lights on")
+        speak("Turning the lights on")
+        print("Beep Detected")
+        voice_thread()
         
 
     time.sleep(0.1)
